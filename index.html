@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Crystal Clear Cleaning & Cutting</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0a0a0a;
+      color: #f1f1f1;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(to right, #0d1b2a, #1b263b);
+      padding: 60px 20px;
+      text-align: center;
+      animation: fadeInDown 1s ease-out;
+    }
+    header h1 {
+      color: #ff4d4d;
+      font-size: 2.8em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+      color: #cbd5e1;
+    }
+    nav {
+      background-color: #1e1e2f;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      padding: 20px;
+      animation: fadeIn 2s ease-in-out;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s;
+    }
+    nav a:hover {
+      color: #ff4d4d;
+      transform: scale(1.05);
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 30px 20px;
+      animation: fadeInUp 1s ease-in-out;
+    }
+    .section {
+      background-color: #1a1a2e;
+      margin-bottom: 40px;
+      padding: 40px;
+      border-left: 6px solid #ff4d4d;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(255, 77, 77, 0.2);
+      animation: slideIn 1s ease-in-out;
+    }
+    .section h2 {
+      color: #fca311;
+      font-size: 2em;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+    }
+    .section p, .section li {
+      font-size: 1.1em;
+      color: #e0e0e0;
+    }
+    .section ul {
+      padding-left: 20px;
+    }
+    footer {
+      background-color: #1b263b;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateX(-50px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Crystal Clear Cleaning & Cutting</h1>
+    <p>Professional Lawn Mowing, Snow Shoveling & Window Cleaning</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#lawn">Lawn Service</a>
+    <a href="#window">Window Cleaning</a>
+    <a href="#winter">Winter Service</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+
+    <section id="about" class="section">
+      <h2>👥 About Us</h2>
+      <p>Welcome to Crystal Clear Cleaning & Cutting — your go-to team for outdoor services in Brantford. We’re Noah Olowu and Desmond Onaiwu, two motivated friends offering efficient and reliable services: lawn cutting, window cleaning, and snow shoveling.</p>
+      <ul>
+        <li>We use our own professional equipment.</li>
+        <li>Extra charges may apply for larger homes.</li>
+        <li>We work year-round in all weather.</li>
+      </ul>
+    </section>
+
+    <section id="lawn" class="section">
+      <h2>🚜 Lawn Service</h2>
+      <p>We offer front and backyard cutting for $45 per side. Each cut is clean and even — handled with our own tools.</p>
+      <p><strong>Extra fees apply</strong> for larger yards.</p>
+    </section>
+
+    <section id="window" class="section">
+      <h2>🪟 Window Cleaning</h2>
+      <p>Let your home shine! We charge $85/hour for sparkling results. Add $25 for both interior and exterior service.</p>
+      <p>High windows? No problem. We bring the gear and safety knowledge to handle it all.</p>
+    </section>
+
+    <section id="winter" class="section">
+      <h2>❄️ Winter Service</h2>
+      <p>Snow won’t stop us! We shovel stairs, paths, and driveways at $85/hour. Larger areas may cost a little more.</p>
+      <p>We use our own snow shovels and gear. Fast, effective, and clean results after every storm.</p>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>📞 Contact Us</h2>
+      <p><strong>Phone:</strong> 519-755-5521</p>
+      <p><strong>Email:</strong> <a href="mailto:knoah2039@gmail.com" style="color: #fca311;">knoah2039@gmail.com</a></p>
+      <p><strong>Owners:</strong> Noah Olowu & Desmond Onaiwu</p>
+      <p>Send us a message to book your service or ask for a quote!</p>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Crystal Clear Cleaning & Cutting. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
